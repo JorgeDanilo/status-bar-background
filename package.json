@@ -1,0 +1,11 @@
+{
+  "name": "status-bar-background-color",
+  "version": "1.0.0",
+  "description": "status bar background color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jdgomes <danilo91519188@gmail.com>",
+  "license": "ISC"
+}

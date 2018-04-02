@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="status-bar-background-color"
+    version="0.0.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>StatusBarBackgroundColor</name>
+
+    <platform name="android">
+
+        <js-module name="StatusBarBackgroundColor" src="www/StatusBarBackgroundColor.js">
+            <runs/>
+            <clobbers target="StatusBarBackgroundColor" />
+        </js-module>
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="StatusBarBackgroundColor">
+                <param name="android-package" value="br.com.StatusBarBackgroundColor" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/br/com/StatusBarBackgroundColor.java" target-dir="src/br/com/" />
+
+    </platform>
+
+
+</plugin>
