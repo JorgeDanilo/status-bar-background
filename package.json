@@ -7,5 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jdgomes <danilo91519188@gmail.com>",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeDanilo/status-bar-background.git"
+  },
+  "keywords": [
+    "status-bar-background"
+  ],
+  "bugs": {
+    "url": "https://github.com/JorgeDanilo/status-bar-background/issues"
+  },
+  "homepage": "https://github.com/JorgeDanilo/status-bar-background#readme"
 }
