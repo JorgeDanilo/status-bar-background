@@ -1,6 +1,6 @@
 {
   "name": "status-bar-background-color",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "status bar background color",
   "main": "index.js",
   "scripts": {
