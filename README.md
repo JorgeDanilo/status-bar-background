@@ -25,7 +25,8 @@ initializeApp() {
 }
 ```
 
-
+## Npm Package
+https://www.npmjs.com/package/status-bar-background-color
 
 
 
